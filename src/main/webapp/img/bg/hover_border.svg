@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1921px" height="876px" viewBox="0 0 1921 876" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>框_划过_slice</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="5.30183442%" y1="0%" x2="95.7457328%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#3023AE" offset="0%"></stop>
+            <stop stop-color="#53A0FD" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-8.2%" y="-5.9%" width="116.5%" height="111.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="7.44977679" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(825.000000, 248.000000)" stroke="url(#linearGradient-1)">
+            <g id="框-划过">
+                <rect id="Rectangle-6" fill="url(#linearGradient-1)" filter="url(#filter-2)" x="0.5" y="0.5" width="270" height="379" rx="18"></rect>
+                <rect id="Rectangle-6-Copy-2" fill="#FBF9FA" x="0.5" y="0.5" width="270" height="379" rx="18"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="98px" height="29px" viewBox="0 0 98 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>首页_孵化器按钮。按下_slice</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="98" height="29" rx="14.5"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-697.000000, -566.000000)">
+            <g id="首页-孵化器按钮。按下" transform="translate(697.000000, 566.000000)">
+                <rect id="Rectangle-7" fill="#00A0DA" x="0" y="0" width="98" height="29" rx="14.5"></rect>
+                <g id="Oval-4">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#0086BB" xlink:href="#path-1"></use>
+                    <circle fill-opacity="0.21" fill="#54C3EC" mask="url(#mask-2)" cx="46" cy="-19" r="38"></circle>
+                    <circle id="Oval-4-Copy" fill-opacity="0.21" fill="#54C3EC" mask="url(#mask-2)" cx="70" cy="-12" r="38"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
