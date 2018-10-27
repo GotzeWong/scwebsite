@@ -215,16 +215,16 @@
 			<!-- 轮播（Carousel）项目 -->
 			<div class="carousel-inner">
 				<div class="item active">
-					<img style="margin: 0 auto;" src="/img/sliders/Slide1.svg" alt="First slide">
+					<img style="margin: 0 auto;" src="/img/sliders/Slide1.png" alt="First slide">
 				</div>
 				<div class="item">
-					<img style="margin: 0 auto;" src="/img/sliders/Slide2.svg" alt="Second slide">
+					<img style="margin: 0 auto;" src="/img/sliders/Slide2.png" alt="Second slide">
 				</div>
 				<div class="item">
-					<img style="margin: 0 auto;" src="/img/sliders/Slide3.svg" alt="Third slide">
+					<img style="margin: 0 auto;" src="/img/sliders/Slide3.png" alt="Third slide">
 				</div>
 				<div class="item">
-					<img style="margin: 0 auto;" src="/img/sliders/Slide4.svg" alt="Third slide">
+					<img style="margin: 0 auto;" src="/img/sliders/Slide4.png" alt="Third slide">
 				</div>
 			</div>
 			<!-- 轮播（Carousel）导航 
@@ -329,8 +329,8 @@
 								<a href="javascript:void(0)" class="page-scroll">
 								
 									<div class="area">
-										<img class="institute-item-icon" src="/img/icon/institute/icon-neural-network.svg"  />
-										<span class="institute-item-span" style="color: #DB2D4B;">大数据</span>
+										<img class="institute-item-icon" src="/img/icon/institute/icon-big-data.svg"  />
+										<span class="institute-item-span" style="color: #8E9FE4;">大数据</span>
 									</div>
 									<h2>Hadoop</h2>
 									<p>目前最广泛应用的分布式系统架构<br />分布式计算平台</p>                       
@@ -346,7 +346,7 @@
 								
 									<div class="area">
 										<img class="institute-item-icon" src="/img/icon/institute/icon-voice-recognition.svg"  />
-										<span class="institute-item-span" style="color: #00D8DD;">语音识别</span>
+										<span class="institute-item-span" style="color: #71D29C;">语音识别</span>
 									</div>
 									<h2>声纹识别</h2>
 									<p>Voiceprint Recognition<br />识别人身份的生物特征信息的识别技术</p>
@@ -360,7 +360,7 @@
 								
 									<div class="area">
 										<img class="institute-item-icon" src="/img/icon/institute/icon-deep-learning.svg"  />
-										<span class="institute-item-span" style="color: #C68DFE;">深度学习</span>
+										<span class="institute-item-span" style="color: #E8806A;">深度学习</span>
 									</div>
 									<h2>TensorFlow</h2>
 									<p>第二代开源的人工智能学习系统<br />基于数据流编程的符号数学软件库</p>
@@ -374,7 +374,7 @@
 								
 									<div class="area">
 										<img class="institute-item-icon" src="/img/icon/institute/icon-indoor-localization.svg"  />
-										<span class="institute-item-span" style="color: #588C10;">室内定位</span>
+										<span class="institute-item-span" style="color: #6591E0;">室内定位</span>
 									</div>
 									<h2>UWB定位技术</h2>
 									<p> 无载波通信技术<br />利用三角定位方式来确定位置   </p>
@@ -390,7 +390,7 @@
                     			
 									<div class="area">
 										<img class="institute-item-icon" src="/img/icon/institute/icon-gesture-recognition.svg"  />
-										<span class="institute-item-span" style="color: #00A0DD;">手势分析</span>
+										<span class="institute-item-span" style="color: #EA7979;">手势分析</span>
 									</div>
 									<h2>TOF(飞行时间)技术</h2>
 									<p class="mini"> 通过计算光线的传播时间来产生深度信息的新型识别技术。</p>
@@ -404,7 +404,7 @@
 									
 									<div class="area">
 										<img class="institute-item-icon" src="/img/icon/institute/icon-nature-language.svg"  />
-										<span class="institute-item-span" style="color: #FE9A01;">自然语言处理</span>
+										<span class="institute-item-span" style="color: #6AB1E7;">自然语言处理</span>
 									</div>
 									<h2>NER(命名实体识别)</h2>
 									<p class="mini"> 识别文本中具有特定意义的实体，是信息提取、问答系统、句法分析、机器翻译等应用领域的重要基础工具。</p>   
@@ -421,7 +421,7 @@
                     			
 									<div class="area">
 										<img class="institute-item-icon" src="/img/icon/institute/icon-ai.svg"  />
-										<span class="institute-item-span" style="color: #09BF62;">人工智能</span>
+										<span class="institute-item-span" style="color: #8AC445;">人工智能</span>
 									</div>
 									<h2>无监督学习</h2>
 									<p> 目前深度学习中的无监督学习主要分为两类，一类是确定型的自编码方法及其改进算法，其目标主要是能够从抽象后的数据中尽量无损地恢复原有数据，一类是概率型的受限波尔兹曼机及其改进算法，其目标主要是使受限玻尔兹曼机达到稳定状态时原数据出现的概率最大。</p>                       

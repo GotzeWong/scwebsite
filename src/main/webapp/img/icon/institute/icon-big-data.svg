@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="46px" viewBox="0 0 40 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>大数据_slice</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="15.915672%" y1="0%" x2="81.6092438%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#95D8E7" offset="0%"></stop>
+            <stop stop-color="#865EE0" offset="100%"></stop>
+        </linearGradient>
+        <path d="M18.8636855,0.346299183 L1.12314496,10.7200451 C0.428206388,11.1265659 0,11.8775941 0,12.6904367 L0,33.438028 C0,34.2508705 0.428206388,35.0019983 1.12314496,35.40832 L18.8636855,45.7820659 C19.5587224,46.1885867 20.4150369,46.1885867 21.1100737,45.7820659 L38.8506143,35.40832 C39.5456511,35.0019983 39.9737592,34.2508705 39.9737592,33.438028 L39.9737592,12.6904367 C39.9737592,11.8775941 39.5456511,11.1265659 38.8506143,10.7200451 L21.1100737,0.346299183 C20.7625553,0.143038783 20.374742,0.041408583 19.9868305,0.041408583 C19.5990172,0.041408583 19.2112039,0.143038783 18.8636855,0.346299183 Z" id="path-2"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-195.000000, -25.000000)">
+            <g id="大数据" transform="translate(195.000000, 25.000000)">
+                <g id="Group-21">
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <use id="Clip-20" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                </g>
+                <g id="Group" transform="translate(7.826087, 11.304348)">
+                    <circle id="Oval" fill="#F9F9F9" cx="15.2173913" cy="1.30434783" r="1.30434783"></circle>
+                    <circle id="Oval-Copy" fill="#F9F9F9" cx="23.9130435" cy="16.0869565" r="1.30434783"></circle>
+                    <circle id="Oval-Copy-2" fill="#F9F9F9" cx="10.8695652" cy="23.0434783" r="1.30434783"></circle>
+                    <circle id="Oval-Copy-3" fill="#F9F9F9" cx="1.30434783" cy="16.0869565" r="1.30434783"></circle>
+                    <circle id="Oval-Copy-4" fill="#F9F9F9" cx="3.04347826" cy="5.65217391" r="1.30434783"></circle>
+                    <path d="M3.04347826,5.65217391 L15.2173913,1.30434783" id="Line" stroke="#F9F9F9" stroke-width="0.8" stroke-linecap="square"></path>
+                    <path d="M3.04347826,5.65217391 L23.9130435,16.0869565" id="Line-Copy" stroke="#F9F9F9" stroke-width="0.8" stroke-linecap="square"></path>
+                    <path d="M3.04347826,5.65217391 L1.30434783,15.2173913" id="Line-Copy-2" stroke="#F9F9F9" stroke-width="0.8" stroke-linecap="square"></path>
+                    <path d="M15.2173913,1.30434783 L1.30434783,16.0869565" id="Line-Copy-3" stroke="#F9F9F9" stroke-width="0.8" stroke-linecap="square"></path>
+                    <path d="M15.2173913,1.30434783 L10.8695652,23.0434783" id="Line-Copy-8" stroke="#F9F9F9" stroke-width="0.8" stroke-linecap="square"></path>
+                    <path d="M15.2173913,1.30434783 L23.9130435,16.0869565" id="Line-Copy-6" stroke="#F9F9F9" stroke-width="0.8" stroke-linecap="square"></path>
+                    <path d="M10.8695652,23.0434783 L1.30434783,16.0869565" id="Line-Copy-4" stroke="#F9F9F9" stroke-width="0.8" stroke-linecap="square"></path>
+                    <path d="M10.8695652,23.0434783 L23.9130435,16.0869565" id="Line-Copy-7" stroke="#F9F9F9" stroke-width="0.8" stroke-linecap="square"></path>
+                    <path d="M23.9130435,16.0869565 L1.30434783,16.0869565" id="Line-Copy-5" stroke="#F9F9F9" stroke-width="0.8" stroke-linecap="square"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
