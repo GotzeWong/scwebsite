@@ -105,9 +105,10 @@
        
         <div id="subPage_nav_bg" class="nav_img">
 	        <div class="make-center _title">
-	           <h1 style="position:relative;top: 259px;left:-20px;">研究院</h1>
-			   <h6 style="position:relative;top: 340.8px;left:-250px;">与国内外顶端科研机构以及高校研发中心合作，以促进科技成果转化、培育中小企业及科技团队为宗旨，
+	           <h1 style="">研究院</h1>
+			   <h6 style="">与国内外顶端科研机构以及高校研发中心合作，以促进科技成果转化、培育中小企业及科技团队为宗旨，
 孵化器为入孵企业提供技术支持、资源服务等支持，助力创业团队快速成长。</h6>
+	        	<a class="linkBtn" style="visibility:hidden;" href="/applyalliance">申请入驻</a>
 	        </div>
         </div>
     </section>
@@ -268,11 +269,16 @@
 					</div>
 					<div class="box-item col-md-4">
 						<span>软件著作权</span>
-						<p class="timer count-title" id="count-number" data-to="89" data-speed="1500"></p><p class="unit">个</p>
+						<div style="margin-left:10px;">
+							<p class="timer count-title" id="count-number" data-to="89" data-speed="1500"></p><p class="unit">个</p>
+						</div>
 					</div>
 					<div class="box-item col-md-4">
 						<span>奖项</span>
-						<p class="timer count-title" id="count-number" data-to="9" data-speed="1500"></p><p class="unit">个</p>
+						<div style="margin-left:22px;">
+							<p class="timer count-title" id="count-number" data-to="9" data-speed="1500"></p>
+							<p class="unit">个</p>
+						</div>
 					</div>
             </div>
             <h6>数据来源：源代码科技产业平台科技成果合作资料库</h6>

@@ -692,18 +692,20 @@ text-justify:inter-word;
 .alliance-box{
 	
 	margin-top:20px;
+	margin-left:-20px;
 }
 
 #alliance .box {
     overflow:visible;
+    padding:0px;
 }
 
 #alliance .media-body {
 	padding:0px;
+	margin:0px auto;
 	width:304px;
   	height:418px;
   	cursor: pointer;
-  	margin:5px;
 }
 
 #alliance .media-body ._border{

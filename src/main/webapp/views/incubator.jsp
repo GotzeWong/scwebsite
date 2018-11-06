@@ -218,7 +218,7 @@
            	</div>
         </div>
         <div class="make-center">
-        	<ul style="width: 1150px;text-align: left;">
+        	<ul style="width: 1105px;text-align: left;">
         		<li>1.  从事科技类产品研发、设计的自然人、团队或企业；</li>
         		<li>2.  项目科技含量高，或创新性强，有明确的市场潜在需求；</li>
         		<li>3.  团队专业素质高，职能结构合理。具有开拓创新精神，对技术、市场、经营和管理有一定驾驭能力；</li>
@@ -234,68 +234,67 @@
             <div class="title"><img class="square" />合作领域</div>
             <div class="box">
                 <div class="row make-center">
-                    
-					<div class="box-item">
-						<h2><img src="/img/icon/incubator/area/icon_area_1.svg" /></h2>
-						<h6>物联网</h6>
-					</div>
-					<div class="box-item">
-						<h2><span><img src="/img/icon/incubator/area/icon_area_2.svg" /></span></h2>
-						<h6>人工智能</h6>
-					</div>
-                    
-					<div class="box-item">
-						<h2><span><img src="/img/icon/incubator/area/icon_area_3.svg" /></span></h2>
-						<h6>智能家居</h6>
-					</div>
-
-					<div class="box-item">
-						<h2><span><img src="/img/icon/incubator/area/icon_area_4.svg" /></span></h2>
-						<h6>虚拟现实</h6>
-					</div>
-					<div class="box-item">
-						<h2><span><img src="/img/icon/incubator/area/icon_area_5.svg" /></span></h2>
-						<h6>增强现实</h6>
-					</div>
-                    
-					<div class="box-item">
-						<h2><span><img src="/img/icon/incubator/area/icon_area_6.svg" /></span></h2>
-						<h6>新能源</h6>
-					</div>
-					
-					<div class="box-item">
-						<h2><span><img src="/img/icon/incubator/area/icon_area_7.svg" /></span></h2>
-						<h6>新材料</h6>
-					</div>
-					<div class="box-item">
-						<h2><span><img src="/img/icon/incubator/area/icon_area_8.svg" /></span></h2>
-						<h6>产业升级</h6>
-					</div>
-                    
+                     <ul>
+        				<li>
+	        				<img id="1" src="/img/icon/incubator/area/icon_area_1.svg" />
+							<span>物联网</span>
+        				</li>
+        				<li>
+							<img id="2" src="/img/icon/incubator/area/icon_area_2.svg" />
+							<span>人工智能</span>
+        				</li>
+        				<li>
+        					<img id="3" src="/img/icon/incubator/area/icon_area_3.svg" />
+							<span>智能家居</span>
+        				</li>
+        				<li>
+        					<img id="4" src="/img/icon/incubator/area/icon_area_4.svg" />
+							<span>虚拟现实</span>
+        				</li>
+        				<li>
+        					<img id="5" src="/img/icon/incubator/area/icon_area_5.svg" />
+							<span>增强现实</span>
+        				</li>
+        				<li>
+        					<img id="6" src="/img/icon/incubator/area/icon_area_6.svg" />
+							<span>新能源</span>
+        				</li>
+        				<li>
+	        				<img id="7" src="/img/icon/incubator/area/icon_area_7.svg" />
+							<span>新材料</span>
+        				</li>
+        				<li>
+        					<img id="8" src="/img/icon/incubator/area/icon_area_8.svg" />
+							<span>产业升级</span>
+        				</li>
+        				<li>
+        					<img id="9" src="/img/icon/incubator/area/icon_area_9.svg" />
+							<span>大数据</span>
+        				</li>
+        				<li>
+	        				<img id="10" src="/img/icon/incubator/area/icon_area_10.svg" />
+							<span>云计算</span>
+        				</li>
+                            	
+                    </ul>
+                
                 </div>
-                <div class="row make-center sencond-row">
+                <div class="row make-center">
                     
-					<div class="box-item">
-						<h2><img src="/img/icon/incubator/area/icon_area_9.svg" /></h2>
-						<h6>大数据</h6>
-					</div>
-					<div class="box-item">
-						<h2><span><img src="/img/icon/incubator/area/icon_area_10.svg" /></span></h2>
-						<h6>云计算</h6>
-					</div>
+                    <ul>
+        				<li>
+	        				<img id="11" src="/img/icon/incubator/area/icon_area_11.svg" />
+							<span>数据服务</span>
+        				</li>
+        				<li>
+							<div class="circles">
+					        	<div class="circle"></div>
+					       		<div class="circle"></div>
+					       		<div class="circle"></div>
+					     	</div>
+        				</li>
+                    </ul>
                     
-					<div class="box-item">
-						<h2><span><img src="/img/icon/incubator/area/icon_area_11.svg" /></span></h2>
-						<h6>数据服务</h6>
-					</div>
-                    
-					<div class="box-item">
-						<div class="circles">
-				        	<div class="circle"></div>
-				       		<div class="circle"></div>
-				       		<div class="circle"></div>
-				     	</div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -417,8 +416,22 @@ $(document).ready(function () {
        event.preventDefault();
     }
   });
+  
+   $(".box li").hover(function(){
+			  	//mouse enter
+			    	
+			    	$(this).find("img").attr("src","/img/icon/incubator/area/icon_area_"+$(this).find("img").attr("id")+"_selected.svg");
+			    	
+			    },function(){
+			  	//mouse leave
+	
+			    	$(this).find("img").attr("src","/img/icon/incubator/area/icon_area_"+$(this).find("img").attr("id")+".svg");
+			    	
+			    	
+			});
 });
 </script>
+
 
 </body>
 

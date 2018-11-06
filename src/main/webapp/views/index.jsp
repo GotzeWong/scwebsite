@@ -443,7 +443,7 @@
 组织开设专业研讨会，邀请各行业技术及从业者分享技术新的、提供前端技术教育，为科技人员引路前行。</h6>
 
             <div class="alliance-box">
-                <div class="row wow fadeInUp" data-wow-delay=".3s"  style="margin-left:-15px;width:1110px;margin-right:0px;">
+                <div class="row wow fadeInUp" data-wow-delay=".3s">
                     
 						<div class="box col-md-3">
 							<div class="media-body alliance_hover" >
@@ -521,20 +521,20 @@
 
             <div class="intelligence-box">
 	            <div class="row" style="width:1078px;height: 443px;margin: 0px auto;">
-	                <div style="float: left;background: #9F9F9F;width:713px;height: 100%;padding:0px;margin: 0px;">1</div>
+	                <div style="float: left;background: #9F9F9F;width:713px;height: 100%;padding:0px;margin: 0px;"></div>
 	                <div style="float: left;margin-left: 17px;">
-			            <div class="row" style="background: #D8D8D8;width:348px;height: 214px;margin: 0px;padding:0px;">2</div> 
-			            <div class="row" style="background: #D8D8D8;width:348px;height: 214px;margin: 0px;margin-top:14px;padding:0px;">3</div> 
+			            <div class="row" style="background: #D8D8D8;width:348px;height: 214px;margin: 0px;padding:0px;"></div> 
+			            <div class="row" style="background: #D8D8D8;width:348px;height: 214px;margin: 0px;margin-top:14px;padding:0px;"></div> 
 	                </div>
 	                
 	                </div>
 	            </div>
 	            <div class="row" style="width:1078px;height: 443px;margin: 0px auto;margin-top:35px;">
 	                <div style="float: left;">
-			            <div class="row" style="background: #D8D8D8;width:348px;height: 214px;margin: 0px;padding:0px;">4</div> 
-			            <div class="row" style="background: #D8D8D8;width:348px;height: 214px;margin: 0px;margin-top:14px;padding:0px;">5</div> 
+			            <div class="row" style="background: #D8D8D8;width:348px;height: 214px;margin: 0px;padding:0px;"></div> 
+			            <div class="row" style="background: #D8D8D8;width:348px;height: 214px;margin: 0px;margin-top:14px;padding:0px;"></div> 
 	                </div>
-	                <div style="float: left;background: #9F9F9F;width:713px;height: 100%;margin: 0px;margin-left: 17px;padding:0px;">6</div>
+	                <div style="float: left;background: #9F9F9F;width:713px;height: 100%;margin: 0px;margin-left: 17px;padding:0px;"></div>
 	            </div>
             </div>
         </div>

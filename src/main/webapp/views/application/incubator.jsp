@@ -140,7 +140,7 @@
 			        	
 			        	
 			        	
-			        	<div class="name" style="margin-top:16px;"><img src="/img/icon/group.png" />负责人</div>
+			        	<div class="name" style="margin-top:25px;"><img src="/img/icon/group.png" />负责人</div>
 			        	<input id="contact_name" name="contact_name" class="form-control" type="value" placeholder='' />
 			        	<span id="contact_namewarning" class="warning left">带 * 号项为必填项，请重新输入</span>
 			        	
@@ -246,7 +246,7 @@
 		        	
 		        	<div>
 			        	<div class="title"><img class="square" />融资信息</div>
-			        	<div class="name"><img src="/img/icon/group.png" />融资轮次</div>
+			        	<div class="name" style="margin-left:9px;"><img src="" />融资轮次</div>
 						<select id="financing_round" name="financing_round">
 						  <option value="">请选择融资轮次</option>
 						  <option value="未融资">未融资</option>
@@ -257,12 +257,10 @@
 						  <option value="D轮">D轮</option>
 						  <option value="E轮">E轮</option>
 						</select>
-						<span id="financing_roundwarning" class="warning left">带 * 号项为必填项，请重新输入</span>
 						
 			        	
-			        	<div class="name"><img src="/img/icon/group.png" />此轮估值</div>
+			        	<div class="name" style="margin-left:9px;margin-top:25px;"><img src="" />此轮估值</div>
 			        	<input id="valuation" name="valuation" class="form-control" maxlength="40" type="value" placeholder='此轮估值（40字以内）' />
-			        	<span id="valuationwarning" class="warning left">带 * 号项为必填项，请重新输入</span>
 			        	
 		        	</div>
 		        	
@@ -598,24 +596,7 @@
            	}
            	
            	
-           	if($("#financing_round").val()==""){
-            	$("#financing_roundwarning").css("visibility","visible");
-            	$("html,body").animate({scrollTop: $("#financing_round").position().top-100},1000);
-            	return false;
-           	}
-           	else{
-            	$("#financing_roundwarning").css("visibility","hidden");
-           	}
            	
-           	if($("#valuation").val().replace(/(^\s*)|(\s*$)/g, "")==""){
-            	$("#valuationwarning").css("visibility","visible");
-            	$("html,body").animate({scrollTop: $("#valuation").position().top-100},1000);
-            	
-            	return false;
-           	}
-           	else{
-            	$("#valuationwarning").css("visibility","hidden");
-           	}
            	/*
         	if($("#filePath").text().replace(/(^\s*)|(\s*$)/g, "")==""){
            		//$("#warning").text("用户名不能为空");

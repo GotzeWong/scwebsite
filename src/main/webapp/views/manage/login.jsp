@@ -308,7 +308,6 @@
             
             var myreg = /^(((13[0-9]{1})|(15[0-9]{1})|(18[0-9]{1}))+\d{8})$/; 
             
-			var code= <%= session.getAttribute("checkcode")%>; 
 			var input_code= $("#checkcode").val();
             
             if(!userterm){
@@ -330,13 +329,16 @@
 		                	if(input_code.replace(/(^\s*)|(\s*$)/g, "")=="")
 	            				$("#rewarning").text("请输入验证码");
 		                	else
-								if(code == input_code){
+		                	{
+		                		var code = <%= session.getAttribute("checkcode")%>;
+								if(code.equals(input_code)){
 				                	$("#rewarning").css("visibility","hidden");
 				                	return true;
 			                	}
 			                	else{
 			                		$("#rewarning").text("验证码输入有误，请重新输入");
 			                	}
+		                	}
 		                	
 		                }
 		                else
