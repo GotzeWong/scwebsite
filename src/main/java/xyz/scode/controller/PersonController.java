@@ -64,7 +64,9 @@ public class PersonController {
                 	else{
 
                 		Cookie cookie = CookiesUtil.getCookieByName(request, "backurl");
-                		String url = cookie.getValue().toString();
+                		String url = "";
+                		if(null != cookie)
+                			url = cookie.getValue().toString();
                 		
                 		if(null != url && url != ""){
                 			CookiesUtil.cleanCookie(request, response, "backurl");
@@ -109,11 +111,13 @@ public class PersonController {
 		
 		RandomNum randomNum = new RandomNum();
 		RandomNum.num = randomNum.getRandom();
-		System.out.println("send" + RandomNum.num);
 		try {
 			SendCode.sendSms(username, RandomNum.num, "SMS_146611128");  //调用短信发送接口，三个参数，手机号，验证码，短信模板
-		
+
+			System.out.println("send" + RandomNum.num);
 			request.getSession().setAttribute("checkcode", RandomNum.num);
+			System.out.println("setAttribute:" + RandomNum.num);
+
 			
 			//TimerTask实现5分钟后从session中删除checkCode
 			final Timer timer = new Timer();
@@ -121,8 +125,11 @@ public class PersonController {
 
 				@Override
 				public void run() {
-					request.getSession().removeAttribute("checkcode");
+					if(null != request && null != request.getSession())
+						request.getSession().removeAttribute("checkcode");
 					timer.cancel();
+
+					//System.out.println("removeAttribute:" + RandomNum.num);
 				}}, 5*60*1000);
 
 			
